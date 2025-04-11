@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  font-family: Robato;
+  color: #333;
+}
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ada7a7;
+}
+.navbar h1{
+  color: aqua;
+  
+}
+.navbar .links{
+ margin-left: auto;
+}
+.navbar a{
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar a:hover{
+  color: #61b386;
+}
+.content{
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.createHead{
+  font-weight: 600;
+  font-size: 30px;
+  color: aqua;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px yellow;
+ 
+}
+form{
+  align-content: center;
+  justify-content: center;
+  margin: 50px;
+  border-radius: 5px;
+  background-color: rgb(210, 234, 234);
+  padding: 20px;
+}
+input[type=text]{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=email]{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+label{
+  width: 20%;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+form div{
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.subbutton{
+  background-color: aqua;
+  box-shadow: 2px 2px yellow;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 6px;
+  width: 150px;
+  border-radius: 20px;
+  
 }
